@@ -1,0 +1,16 @@
+<p><%= @number %></p>
+<p>
+    <.button phx-click="add">Add</.button>
+    <.button phx-click="subtract">Subtract</.button>
+</p>
+
+<.simple_form class="mt-40" for={@form} phx-submit="adding_more">
+    <.input field={@form[:add_amount]} value={@form.params.adding_amount_default}/>
+    <.button class="w-full">
+      Add More
+    </.button>
+</.simple_form>
+
+<h1>
+    Hello From Heex File
+</h1>
