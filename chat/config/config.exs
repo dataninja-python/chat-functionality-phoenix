@@ -19,7 +19,7 @@ config :chat, ChatWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Chat.PubSub,
-  live_view: [signing_salt: "b6MZu3xi"]
+  live_view: [signing_salt: "eYLdPCf+"]
 
 # Configures the mailer
 #

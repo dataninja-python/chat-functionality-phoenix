@@ -13,7 +13,7 @@ config :chat, ChatWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "PllmyysUpDZwmKrkvCEplcabLtYURR+WJbEMs3j4XHfGbux8OKBeSwHt9OO+5gTm",
+  secret_key_base: "xYG60CAmch/+USPQb8zoR+MLmD7tiz9v5NpNYqskRGxUv3yke79WGllVkgRPabWB",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}

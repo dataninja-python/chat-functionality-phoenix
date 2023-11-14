@@ -7,7 +7,7 @@ defmodule ChatWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_chat_key",
-    signing_salt: "xQfuDgCM",
+    signing_salt: "nskmI/nD",
     same_site: "Lax"
   ]
 
