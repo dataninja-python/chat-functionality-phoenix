@@ -5,9 +5,4 @@ defmodule ChatWeb.HomeLive do
     {:ok, socket}
   end
 
-  def render(assigns) do
-    ~H"""
-    Chat App Online
-    """
-  end
 end
