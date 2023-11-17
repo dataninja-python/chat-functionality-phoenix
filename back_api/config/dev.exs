@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :back_api, BackApi.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "backend_stuff",
+  password: "backend_stuff",
   hostname: "localhost",
   database: "back_api_dev",
   stacktrace: true,
